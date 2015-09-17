@@ -1,7 +1,8 @@
 #pragma once
 #include "IdentifiableObject.h"
+#include "flammable.h"
 class Item :
-	public IdentifiableObject
+	public IdentifiableObject, public Flammable
 {
 public:
 	Item();
@@ -14,6 +15,7 @@ public:
 	void Initialise(std::vector<std::string> &splitstring);
 	
 	bool AreYou(std::string id);
+	bool isFlammable(){ return true; }
 	//messaging system
 	std::string SendMessage(std::string msg);
 

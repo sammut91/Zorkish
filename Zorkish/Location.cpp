@@ -68,7 +68,18 @@ std::string Location::SendMessage(std::string msg)
 	if (msg == "Go")
 	{
 		return 0;
+	}else
+	if (msg == "flammable")
+	{
+		if (isFlammable())
+		{
+			return m_name + " is " + msg;
+		}
+		else
+			return m_name + " isn't " + msg;
 	}
+	else
+		return "Invalid message";
 }
 
 //intialise the paths for the location

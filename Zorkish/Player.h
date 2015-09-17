@@ -25,6 +25,7 @@ public:
 	//void GetNearbyObjects(IdentifiableObject* obj);
 
 	//functions
+	std::string SendMessage(std::string msg, std::string reciepeint);
 	std::string SendMessage(std::string msg);
 	bool AreYou(std::string id);
 	void MoveTo(std::string location);

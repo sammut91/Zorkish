@@ -49,7 +49,23 @@ std::string Item::SendMessage(std::string msg)
 	if (msg == "identify")
 	{
 		return GetDescription();
+	}else
+	if (msg.find("flammable") != std::string::npos)
+	{
+		if (isFlammable())
+		{
+			return m_name + " is " + "flammable";
+		}
+		else
+			return m_name + " isn't " + "flammable";
+	}else
+	if (msg == "hi")
+	{
+		return m_name + " cannot talk";
 	}
+	else
+		return "Invalid message";
+
 }
 
 bool Item::AreYou(std::string id)

@@ -18,6 +18,7 @@ void CommandManager::Initialise()
 	AddCommand(AliasCommand::Instance());
 	AddCommand(TakeCommand::Instance());
 	AddCommand(PutCommand::Instance()); 
+	AddCommand(TalkCommand::Instance());
 	InitialiseCmdIds();
 
 }
@@ -89,4 +90,7 @@ void CommandManager::InitialiseCmdIds()
 	AddIdInit("take", "take");
 	AddIdInit("put", "put");
 	AddIdInit("put", "drop");
+	AddIdInit("talk", "talk");
+	AddIdInit("talk", "say");
+	AddIdInit("talk", "are");
 }

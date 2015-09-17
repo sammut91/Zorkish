@@ -60,5 +60,13 @@ bool Bag::AreYou(std::string id)
 
 std::string Bag::SendMessage(std::string msg)
 {
-	return 0;
+	if (msg == "flammable")
+	{
+		if (isFlammable())
+		{
+			return m_name + " is " + msg;
+		}
+	}
+	else
+		return "invalid message";
 }

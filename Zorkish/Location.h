@@ -5,6 +5,7 @@
 #include "Bag.h"
 #include "Inventory.h"
 #include <algorithm>
+#include "flammable.h"
 #include "Path.h"
 #include <fstream>
 #include <sstream>
@@ -39,6 +40,7 @@ public:
 	std::vector<std::string> PathList();
 	std::string GetInformation();
 	std::string Paths();
+	bool isFlammable(){ return false; }
 	
 
 private:

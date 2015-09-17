@@ -32,11 +32,22 @@ void Player::Initialise(Location* l)
 	m_inventory->AddItem(itm2);
 }
 
+std::string Player::SendMessage(std::string msg, std::string recipient)
+{
+	if (Locate(recipient) != NULL)
+	{
+		return Locate(recipient)->SendMessage(msg);
+	}
+	if (msg == "hi")
+	{
+		return "It's an inanimate object, it's not going to talk to you";
+	}
+}
 std::string Player::SendMessage(std::string msg)
 {
-	if (msg == "greet")
+	if (msg == "hi")
 	{
-		return "Hi there!";
+		return "It's an inanimate object, it's not going to talk to you";
 	}
 }
 
@@ -113,6 +124,13 @@ IdentifiableObject* Player::Locate(std::string id)
 	else if (m_location.AreYou(id))
 	{
 		return &m_location;
+	}
+	for (int i = 0; i < m_inventory->GetItems().size(); i++)
+	{
+		if (m_inventory->GetItems().at(i)->AreYou(id))
+		{
+			return (m_inventory->GetItems().at(i));
+		}
 	}
 	for (int i = 0; i < m_location.GetInventory()->GetItems().size(); i++)
 	{

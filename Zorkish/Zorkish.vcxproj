@@ -101,6 +101,7 @@
     <ClCompile Include="SelectState.cpp" />
     <ClCompile Include="StateManager.cpp" />
     <ClCompile Include="TakeCommand.cpp" />
+    <ClCompile Include="TalkCommand.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AboutState.h" />
@@ -109,6 +110,7 @@
     <ClInclude Include="Bag.h" />
     <ClInclude Include="Command.h" />
     <ClInclude Include="CommandManager.h" />
+    <ClInclude Include="flammable.h" />
     <ClInclude Include="GameState.h" />
     <ClInclude Include="HiScoreState.h" />
     <ClInclude Include="HoFState.h" />
@@ -128,6 +130,7 @@
     <ClInclude Include="SelectState.h" />
     <ClInclude Include="StateManager.h" />
     <ClInclude Include="TakeCommand.h" />
+    <ClInclude Include="TalkCommand.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

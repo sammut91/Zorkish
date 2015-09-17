@@ -8,6 +8,7 @@
 #include "MoveCommand.h"
 #include "TakeCommand.h"
 #include "PutCommand.h"
+#include "TalkCommand.h"
 #include <algorithm>
 #include <typeinfo>
 
