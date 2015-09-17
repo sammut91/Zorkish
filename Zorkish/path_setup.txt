@@ -1,0 +1,15 @@
+PATHID: x, PATHNAME: x, PATHDESC: x. PATHDESTINATIONS: x
+north,PathName,north,PathDesc,A,path,to,the,north,PathDest,town,;
+west,PathName,west,PathDesc,A,path,to,the,west,PathDest,shop,;
+south,PathName,south,PathDesc,A,path,to,the,south,PathDest,home,;
+north,PathName,north,PathDesc,A,path,to,the,north,PathDest,mountain,;
+east,PathName,east,PathDesc,A,path,to,the,east,PathDest,forest,;
+west,PathName,west,PathDesc,A,path,to,the,west,PathDest,shop,;
+north,PathName,north,PathDesc,A,path,to,the,north,PathDest,forest,;
+south,PathName,south,PathDesc,A,path,to,the,south,PathDest,town,;
+east,PathName,east,PathDesc,A,path,to,the,east,PathDest,forest,;
+north,PathName,north,PathDesc,A,path,to,the,north,PathDest,mountain,;
+south,PathName,south,PathDesc,A,path,to,the,south,PathDest,lake,;
+west,PathName,west,PathDesc,A,path,to,the,west,PathDest,town,;
+south,PathName,south,PathDesc,A,path,to,the,south,PathDest,home,;
+east,PathName,east,PathDesc,A,path,to,the,east,PathDest,town,;

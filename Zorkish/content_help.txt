@@ -1,0 +1,5 @@
+Zorkish:: Help
+--------------------------------------------------------
+The following commands are supported:
+quit
+hi-score

@@ -1,0 +1,7 @@
+LOCATIONID: x, LOCATIONNAME: x, LOCATIONDESC: x, LOCATIONPATHS: x, LOCATIONINVENTORY: x
+home,LocationName,home,LocationDesc,The,Player's,Home,LocationPaths,2,LocationItems,3,;
+town,LocationName,town,LocationDesc,The,Town,Center,LocationPaths,4,LocationItems,3,;
+lake,LocationName,lake,LocationDesc,A,peaceful,lake,LocationPaths,1,LocationItems,3,;
+mountain,LocationName,mountain,LocationDesc,A,dangerous,looking,mountain,LocationPaths,2,LocationItems,3,;
+forest,LocationName,forest,LocationDesc,A,dark,and,eerie,forest,LocationPaths,3,LocationItems,5,;
+shop,LocationName,shop,LocationDesc,The,local,town,shop,LocationPaths,2,LocationItems,2,;

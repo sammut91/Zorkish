@@ -1,0 +1,7 @@
+Zorkish:: Select Adventure
+--------------------------------------------------------
+Choose your adventure:
+1.  Mountain World
+2.  Water World
+3.  Box World
+Select 1-3:>

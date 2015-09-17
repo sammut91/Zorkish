@@ -1,0 +1,9 @@
+Zorkish :: Main Menu
+--------------------------------------------------------
+Welcome to ZorkishAdventures
+1.  Select Adventure and Play
+2.  Hall Of Fame 
+3.  Help
+4.  About
+5.  Quit
+Select 1-5:>

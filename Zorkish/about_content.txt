@@ -1,0 +1,4 @@
+Zorkish :: About
+--------------------------------------------------------
+Written by: Luke Sammut
+Press ESC or Enter to return to the Main Menu

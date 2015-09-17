@@ -1,0 +1,14 @@
+Zorkish :: Hall Of Fame
+--------------------------------------------------------
+Top 10 Zorkish Adventure Champions
+1. Fred, Mountain World, 5000
+2. Mary, Mountain World, 4000
+3. Joe, Water World, 3000
+4. Henry, Mountain World, 2000
+5. Susan, Mountain World, 1000
+6. Alfred, Water World, 900
+7. Clark, Mountain World, 800
+8. Harold, Mountain World, 500
+9. Julie, Water World, 300
+10. Bill, Box World, -5
+Press Enter to return to the Main Menu

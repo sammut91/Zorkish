@@ -1,0 +1,8 @@
+Zorkish :: New High Score
+--------------------------------------------------------
+Congratulations!
+You have made it to the Zorkish Hall Of Fame
+Adventure: [the adventure world played]
+Score: [the players score]
+Moves: [number of moves player made]
+Please type your name and press enter:
