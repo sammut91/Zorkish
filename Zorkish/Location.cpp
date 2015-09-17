@@ -69,14 +69,14 @@ std::string Location::SendMessage(std::string msg)
 	{
 		return 0;
 	}else
-	if (msg == "flammable")
+	if (msg.find("flammable") != std::string::npos)
 	{
 		if (isFlammable())
 		{
-			return m_name + " is " + msg;
+			return m_name + " is " + "flammable \n";
 		}
 		else
-			return m_name + " isn't " + msg;
+			return m_name + " isn't " + "flammable \n";
 	}
 	else
 		return "Invalid message";

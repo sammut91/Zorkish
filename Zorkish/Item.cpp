@@ -54,10 +54,10 @@ std::string Item::SendMessage(std::string msg)
 	{
 		if (isFlammable())
 		{
-			return m_name + " is " + "flammable";
+			return m_name + " is " + "flammable \n";
 		}
 		else
-			return m_name + " isn't " + "flammable";
+			return m_name + " isn't " + "flammable \n";
 	}else
 	if (msg == "hi")
 	{

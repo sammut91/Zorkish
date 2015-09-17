@@ -93,4 +93,5 @@ void CommandManager::InitialiseCmdIds()
 	AddIdInit("talk", "talk");
 	AddIdInit("talk", "say");
 	AddIdInit("talk", "are");
+	AddIdInit("talk", "what");
 }

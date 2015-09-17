@@ -30,11 +30,16 @@ std::string TalkCommand::Execute(Player &p, std::vector<std::string> input)
 		}
 		else if (input.size() == 3)
 		{
+			response.append("In your inventory: \n");
 			for (int i = 0; i < p.GetInventory()->GetItems().size(); i++)
 			{
-				response.append(p.GetInventory()->GetItems().at(i)->SendMessage(input.back()) + "\n");
+				response.append(p.GetInventory()->GetItems().at(i)->SendMessage(input.back()));
 			}
-				response.append(p.GetLocation().SendMessage(input.back()));
+			response.append("\n\nIn your location: \n" + p.GetLocation().SendMessage(input.back()));
+			for (int i = 0; i < p.GetLocation().GetInventory()->GetItems().size()-1; i++)
+			{
+				response.append(p.GetLocation().GetInventory()->GetItems().at(i)->SendMessage(input.back()));
+			}
 		return response;
 		}
 	}
