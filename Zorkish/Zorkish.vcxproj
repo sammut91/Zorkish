@@ -130,7 +130,9 @@
     <ClInclude Include="SelectState.h" />
     <ClInclude Include="StateManager.h" />
     <ClInclude Include="TakeCommand.h" />
-    <ClInclude Include="TalkCommand.h" />
+    <ClInclude Include="TalkCommand.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
