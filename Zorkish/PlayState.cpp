@@ -1,5 +1,10 @@
 //------------------------------------------------------------------
 //Play State
+//	- This state contains the game loading and handling of the main
+//		player input for the game.
+//	- A player enters a command they wish to process and the 
+//		command manager will check with its commands and execute the 
+//		appropriate command.
 //------------------------------------------------------------------
 #pragma once
 #include "PlayState.h"
@@ -25,6 +30,7 @@ void PlayState::Initialise()
 		}		
 
 		std::cout << m_content;
+		m_firstInit == false;
 	}	
 }
 
@@ -69,6 +75,14 @@ void PlayState::Update(StateManager* game)
 		{
 			m_output = m_adventure.m_player.GetInventory()->GetItemList();
 		}
+		else if (m_split_content.front() == "help")
+		{
+			game->PushState(HelpState::Instance());
+		}
+		else if (m_split_content.front() == "quit")
+		{
+			game->PushState(QuitState::Instance());
+		}
 		else
 			m_output = game->GetCommandManager().Execute(m_adventure.m_player,m_split_content);
 	}
@@ -78,4 +92,5 @@ void PlayState::Render()
 {
 	if (m_output != "")
 		std::cout << m_output << std::endl;
+	m_output = "";
 }

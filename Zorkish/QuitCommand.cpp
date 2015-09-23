@@ -4,7 +4,7 @@ QuitCommand QuitCommand::m_quitCommand;
 
 std::string QuitCommand::Execute(Player &p, std::vector<std::string> input)
 {
-	exit(0);
+	return "Quitting the game now";
 }
 
 std::vector<std::string> QuitCommand::SplitString(std::string msg)

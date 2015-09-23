@@ -1,5 +1,12 @@
 Zorkish:: Help
 --------------------------------------------------------
 The following commands are supported:
-quit
-hi-score
+Quit
+Look
+Take
+Put
+Move
+Alias
+Inventory
+--------------------------------------------------------
+Press Esc to return.

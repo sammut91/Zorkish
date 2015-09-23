@@ -83,6 +83,7 @@
     <ClCompile Include="AliasCommand.cpp" />
     <ClCompile Include="Bag.cpp" />
     <ClCompile Include="CommandManager.cpp" />
+    <ClCompile Include="HelpState.cpp" />
     <ClCompile Include="HiScoreState.cpp" />
     <ClCompile Include="HoFState.cpp" />
     <ClCompile Include="Inventory.cpp" />
@@ -112,6 +113,7 @@
     <ClInclude Include="CommandManager.h" />
     <ClInclude Include="flammable.h" />
     <ClInclude Include="GameState.h" />
+    <ClInclude Include="HelpState.h" />
     <ClInclude Include="HiScoreState.h" />
     <ClInclude Include="HoFState.h" />
     <ClInclude Include="IdentifiableObject.h" />

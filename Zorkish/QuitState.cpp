@@ -32,5 +32,5 @@ void QuitState::Update(StateManager* game)
 
 void QuitState::Render()
 {
-	std::cout << m_content;
+
 }

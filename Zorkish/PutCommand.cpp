@@ -40,7 +40,7 @@ std::string PutCommand::Execute(Player &p, std::vector<std::string> input)
 				{
 					Item* obj = p.GetInventory()->Take(input[1]);
 					container->AddItem(obj);
-					return "Put " + input[1] + " in " + container->GetName();
+					return "Putting " + input[1] + " into the " + container->GetName();
 				}
 				else 
 					return "Cannot put " + input[1] + " anywhere / " + input.back() + " does not exist";

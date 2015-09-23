@@ -15,6 +15,7 @@
 #include "HiScoreState.h"
 #include <fstream>
 #include <sstream>
+#include "HelpState.h"
 #include "Adventure.h"
 
 class PlayState :

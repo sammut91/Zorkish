@@ -60,5 +60,7 @@ void SelectState::Update(StateManager* game)
 
 void SelectState::Render()
 {
-	std::cout << m_output;
+	if (m_output != "")
+		std::cout << m_output << std::endl;
+	m_output = "";
 }
